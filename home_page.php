@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Project</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href= "style.css">
+
+</head>
+
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="logo"></i> E-Health Care </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#health">health</a>
+        <a href="#about">about</a>
+        <a href="#suggestion">suggestion</a>
+        <a href="#book">book</a>
+        <a href="#blogs">blogs</a>
+        <a href="login_page.php">logout</a>
+
+    </nav>
+
+
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="ajaygirl3.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3>stay safe, stay healthy</h3>
+        <p>Our website focuses on quickly generating a basic health report by taking answer of some questions.
+         By the user along with some addtional features like BMI Calculator.Suggestion on diet,excrises etc.
+         </p>
+        <a href="#" class="btn"> contact us <span class="fas fa-chevron-right"></span> </a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-user-md"></i>
+        <h3>1</h3>
+        <p>Checkup</p>
+    </div>
+
+
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- services section starts  -->
+
+<section class="health" id="health">
+
+    <h1 class="heading"> check your <span>health</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="report"></i>
+            <h3>Check your health</h3>
+            <p>
+               Know your current basic health condition by answering some questions.
+            </p>
+
+            <a href="health.php">
+                <button type="Get Report" id="Get Report" class="btn">Get Report</button>
+            </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-BMI-calculator"></i>
+            <h3>BMI Calculator</h3>
+            <p>Calculate your BMI(Body Mass Inex).</p>
+            <a href="#" class="btn"> Get BMI <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-eye"></i>
+            <h3>Vision Checker</h3>
+            <p>This test simply aims to give you a general idea about your visual capacity.</p>
+            <a href="#" class="btn">click here</a> <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-pills"></i>
+            <h3>Check your dOSHA</h3>
+            <p>According to Ayurveda, a person’s health is based on their dosha.
+               A balance of the five elements of the world known as air, earth, space, water, and fire.
+                </p>
+            <a href="#" class="btn">know your Dosha <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="ajaygirl2.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>we take care of your healthy life</h3>
+            <p> Nowaday's people are so busy that they are not focusing on thier health even after knowing ,That
+            there and their family's health should be on topmost priority.
+
+            our website provides a quick health report anywhere at Anytime.It also provides informations and suggestions on various
+            health aspects like diet,Exercise ,etc.
+
+            </p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- doctors section starts  -->
+
+<section class="doctors" id="suggestion">
+
+    <h1 class="heading"> our <span>suggestion</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="Best food for your body.png" alt="">
+            <h3>Diet</h3>
+            <span>healthy diet</span>
+            <a href="#" class="btn">Learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <img src="Sun Salutations A (Surya Namaskar) How To.png" alt="">
+            <h3>Exercise</h3>
+            <span>Yoga,workout,etc</span>
+            <a href="#" class="btn">Learn more <span class="fas fa-chevron-right"></span> </a>
+
+        <div class="box">
+            <img src="dosha.png" alt="">
+            <h3>Dosha</h3>
+            <span> Know your body nature</span>
+            <a href="#" class="btn">Learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+
+
+        <div class="box">
+
+            <h3>Other Information</h3>
+            </div>
+
+    </div>
+
+</section>
+
+<!-- doctors section ends -->
+
+<!-- booking section starts   -->
+
+<section class="book" id="book">
+
+    <h1 class="heading"> <span>book</span> now </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="ajaygirl.png" alt="">
+        </div>
+
+        <form action="">
+            <h3>book appointment</h3>
+            <input type="text" placeholder="your name" class="box">
+            <input type="number" placeholder="your number" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="date" class="box">
+            <input type="submit" value="book now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- booking section ends -->
+
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="DOCTOR STRANGE.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icon">
+                    <a href="#"> <i class="fas fa-calendar"></i> 15 sep,2022 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>natural Vibes</h3>
+                <p>we should spend as much time as possible with nature because nature is everything.
+                  Nature has the power to heal everything.
+
+                </p>
+                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="ayurveda.png" alt="">
+            </div>
+            <div class="content">
+                <div class="icon">
+                    <a href="#"> <i class="fas fa-calendar"></i> 16 sep, 2022 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>Ayurveda</h3>
+                <p>
+                  Know more about Ancient Theories of INDIA regarding health (Ayurveda) which scientists are
+                  believing now.
+                </p>
+                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> health </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> about </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> suggestion </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> book </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> blog </a>
+
+        </div>
+
+        <div class="box">
+            <h3>our services</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> ayurveda </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> stress releaf </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> workout </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> yoga </a>
+
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91-9867 091 698 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91-8169 439 867 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> atul.mg91413@gmail.com </a>
+            <a href="#"> <i class="fas fa-envelope"></i> cajay8433@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> thane, INDIA - 400610 </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>Ajay,Atul,Amil and Siddhesh</span> | APSIT </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
